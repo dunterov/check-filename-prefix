@@ -1,0 +1,5 @@
+-   id: check-filename-prefix
+    name: Ensure filenames contain the required prefix
+    description: Pre-commit hook to verify filenames start with the required prefix.
+    language: script
+    entry: ./check_filename_prefix.sh
